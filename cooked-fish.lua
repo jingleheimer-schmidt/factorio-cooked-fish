@@ -45,6 +45,17 @@ local cookedFish = {
   stack_size = 100
 }
 
+local cookedFishRecipe = {
+    type = "recipe",
+    name = "cooked-fish-recipe",
+    category = "smelting",
+    energy_required = 16,
+    enabled = true,
+    ingredients = {{"raw-fish", 1}},
+    result = "cooked-fish"
+}
+
 data:extend({
-  cookedFish
+  cookedFish,
+  cookedFishRecipe
 })
