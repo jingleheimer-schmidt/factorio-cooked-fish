@@ -3,6 +3,7 @@ Version: 0.0.2
 Date: 2021-01-10
   Changes:
     - Updated for factorio version 1.1
+    - Added activation type tooltip
     - Added changelog
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.1
