@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 05DEC2021
+  Changes:
+    - Added support for salmon and cod from the more-fish mod
+    - flipped cooked fish icon to match raw fish
+    - updated thumbnail
+    - updated license to CC BY-NC-SA 4.0
+---------------------------------------------------------------------------------------------------
 Version: 0.0.2
 Date: 2021-01-10
   Changes:

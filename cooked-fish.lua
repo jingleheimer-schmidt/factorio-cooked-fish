@@ -6,7 +6,7 @@ local cookedFish = {
   icon = "__factorio-cooked-fish__/icon.png",
   icon_size = 32,
   subgroup = "raw-resource",
-  order = "h[raw-fish][cooked-fish]",
+  order = "h[raw-fish][aaaaaraw-fish][cooked]",
   capsule_action =
   {
     type = "use-on-self",

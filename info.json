@@ -1,10 +1,10 @@
 
 {
 	"name": "factorio-cooked-fish",
-	"version": "0.0.2",
-	"title": "Cooked fish",
-	"description": "Allows raw fish to be cooked in a furnace.",
+	"version": "0.0.3",
+	"title": "Cooked Fish",
+	"description": "Allows raw fish to be cooked in a furnace",
 	"author": "asher_sky",
-	"dependencies": ["base >= 1.1.0"],
+	"dependencies": ["base"],
 	"factorio_version": "1.1"
 }
