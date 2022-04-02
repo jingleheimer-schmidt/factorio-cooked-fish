@@ -47,16 +47,34 @@ local cookedFish = {
 }
 
 local cookedFishRecipe = {
-    type = "recipe",
-    name = "cooked-fish-recipe",
-    category = "smelting",
-    energy_required = 16,
-    enabled = true,
-    ingredients = {{"raw-fish", 1}},
-    result = "cooked-fish"
+  type = "recipe",
+  name = "cooked-fish-recipe",
+  category = "cooking",
+  energy_required = 16,
+  enabled = true,
+  ingredients = {{"raw-fish", 1}},
+  result = "cooked-fish"
+}
+
+local cookingCategory = {
+  type = "recipe-category",
+  name = "cooking",
 }
 
 data:extend({
   cookedFish,
-  cookedFishRecipe
+  cookedFishRecipe,
+  cookingCategory
 })
+
+for key, furnace in pairs(data.raw.furnace) do
+  local cooking_enabled = false
+  for each, category in pairs(furnace.crafting_categories) do
+    if category == "cooking" then
+      cooking_enabled = true
+    end
+  end
+  if not cooking_enabled then
+    table.insert(data.raw.furnace[key].crafting_categories, "cooking")
+  end
+end
