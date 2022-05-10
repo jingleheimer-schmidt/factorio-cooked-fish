@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 09MAY2022
+  Changes:
+    - fixed that fish could be cooked in some modded machines that didn't make sense
+---------------------------------------------------------------------------------------------------
 Version: 0.0.5
 Date: 03APR2022
   Changes:
