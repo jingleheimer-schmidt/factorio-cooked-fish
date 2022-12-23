@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+Date: 22DEC2022
+  Changes:
+    - added cooked variants for the fish in the advanced fishing mod https://mods.factorio.com/mod/Advanced_Fishing
+---------------------------------------------------------------------------------------------------
 Version: 0.0.6
 Date: 09MAY2022
   Changes:
