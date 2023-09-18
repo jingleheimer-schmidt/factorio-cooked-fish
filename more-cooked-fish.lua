@@ -1,4 +1,5 @@
-local sounds = require ("__base__.prototypes.entity.sounds")
+
+local sounds = require("__base__.prototypes.entity.sounds")
 
 local cookedCod = {
   name = "cooked-cod",
@@ -31,7 +32,7 @@ local cookedCod = {
             {
               {
                 type = "damage",
-                damage = {type = "physical", amount = -120}
+                damage = { type = "physical", amount = -120 }
               },
               {
                 type = "play-sound",
@@ -77,7 +78,7 @@ local cookedSalmon = {
             {
               {
                 type = "damage",
-                damage = {type = "physical", amount = -120}
+                damage = { type = "physical", amount = -120 }
               },
               {
                 type = "play-sound",
@@ -93,23 +94,23 @@ local cookedSalmon = {
 }
 
 local cookedCodRecipe = {
-    type = "recipe",
-    name = "cooked-cod-recipe",
-    category = "cooking",
-    energy_required = 16,
-    enabled = true,
-    ingredients = {{"raw-cod", 1}},
-    result = "cooked-cod"
+  type = "recipe",
+  name = "cooked-cod-recipe",
+  category = "cooking",
+  energy_required = 16,
+  enabled = true,
+  ingredients = { { "raw-cod", 1 } },
+  result = "cooked-cod"
 }
 
 local cookedSalmonRecipe = {
-    type = "recipe",
-    name = "cooked-salmon-recipe",
-    category = "cooking",
-    energy_required = 16,
-    enabled = true,
-    ingredients = {{"raw-salmon", 1}},
-    result = "cooked-salmon"
+  type = "recipe",
+  name = "cooked-salmon-recipe",
+  category = "cooking",
+  energy_required = 16,
+  enabled = true,
+  ingredients = { { "raw-salmon", 1 } },
+  result = "cooked-salmon"
 }
 
 if mods["more-fish"] then
