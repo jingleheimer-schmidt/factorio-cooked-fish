@@ -1,4 +1,5 @@
-local sounds = require ("__base__.prototypes.entity.sounds")
+
+local sounds = require("__base__.prototypes.entity.sounds")
 
 local cookedFish = {
   name = "cooked-fish",
@@ -31,7 +32,7 @@ local cookedFish = {
             {
               {
                 type = "damage",
-                damage = {type = "physical", amount = -120}
+                damage = { type = "physical", amount = -120 }
               },
               {
                 type = "play-sound",
@@ -52,7 +53,7 @@ local cookedFishRecipe = {
   category = "cooking",
   energy_required = 16,
   enabled = true,
-  ingredients = {{"raw-fish", 1}},
+  ingredients = { { "raw-fish", 1 } },
   result = "cooked-fish"
 }
 
