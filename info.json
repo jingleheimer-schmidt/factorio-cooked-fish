@@ -5,6 +5,10 @@
 	"title": "Cooked Fish",
 	"description": "Allows raw fish to be cooked in a furnace",
 	"author": "asher_sky",
-	"dependencies": ["base", "(?)more-fish", "(?)Advanced_Fishing"],
+	"dependencies": [
+		"base",
+		"(?)more-fish",
+		"(?)Advanced_Fishing"
+	],
 	"factorio_version": "1.1"
 }
