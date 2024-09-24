@@ -4,6 +4,7 @@ Date: ????
   Changes:
     - update license year
   Locale:
+    - added locale strings for mod name and description
     - added Catalan (ca) locale from Crowdin
     - added German (de) locale from Crowdin
     - added French (fr) locale from Crowdin
