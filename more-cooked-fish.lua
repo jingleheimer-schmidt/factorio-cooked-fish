@@ -1,7 +1,7 @@
 
 local sounds = require("__base__.prototypes.entity.sounds")
 
-local cookedCod = {
+local cooked_cod_item = {
     name = "cooked-cod",
     type = "capsule",
     icon = "__factorio-cooked-fish__/graphics/more-fish/Cooked_Cod_JE4_BE3.png",
@@ -47,7 +47,7 @@ local cookedCod = {
     stack_size = 100
 }
 
-local cookedSalmon = {
+local cooked_salmon_item = {
     name = "cooked-salmon",
     type = "capsule",
     icon = "__factorio-cooked-fish__/graphics/more-fish/Cooked_Salmon_JE2_BE2.png",
@@ -93,7 +93,7 @@ local cookedSalmon = {
     stack_size = 100
 }
 
-local cookedCodRecipe = {
+local cooked_cod_recipe = {
     type = "recipe",
     name = "cooked-cod-recipe",
     category = "cooking",
@@ -103,7 +103,7 @@ local cookedCodRecipe = {
     result = "cooked-cod"
 }
 
-local cookedSalmonRecipe = {
+local cooked_salmon_recipe = {
     type = "recipe",
     name = "cooked-salmon-recipe",
     category = "cooking",
@@ -115,9 +115,9 @@ local cookedSalmonRecipe = {
 
 if mods["more-fish"] then
     data:extend({
-        cookedCod,
-        cookedCodRecipe,
-        cookedSalmon,
-        cookedSalmonRecipe
+        cooked_cod_item,
+        cooked_cod_recipe,
+        cooked_salmon_item,
+        cooked_salmon_recipe
     })
 end
