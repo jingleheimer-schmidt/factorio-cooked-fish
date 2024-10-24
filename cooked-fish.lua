@@ -1,69 +1,69 @@
 
 local sounds = require("__base__.prototypes.entity.sounds")
 
-local cookedFish = {
-  name = "cooked-fish",
-  type = "capsule",
-  icon = "__factorio-cooked-fish__/icon.png",
-  icon_size = 32,
-  subgroup = "raw-resource",
-  order = "h[raw-fish][aaaaaraw-fish][cooked]",
-  capsule_action =
-  {
-    type = "use-on-self",
-    attack_parameters =
+local cooked_fish_item = {
+    name = "cooked-fish",
+    type = "capsule",
+    icon = "__factorio-cooked-fish__/icon.png",
+    icon_size = 32,
+    subgroup = "raw-resource",
+    order = "h[raw-fish][aaaaaraw-fish][cooked]",
+    capsule_action =
     {
-      type = "projectile",
-      activation_type = "consume",
-      ammo_category = "capsule",
-      cooldown = 30,
-      range = 0,
-      ammo_type =
-      {
-        category = "capsule",
-        target_type = "position",
-        action =
+        type = "use-on-self",
+        attack_parameters =
         {
-          type = "direct",
-          action_delivery =
-          {
-            type = "instant",
-            target_effects =
+            type = "projectile",
+            activation_type = "consume",
+            ammo_category = "capsule",
+            cooldown = 30,
+            range = 0,
+            ammo_type =
             {
-              {
-                type = "damage",
-                damage = { type = "physical", amount = -120 }
-              },
-              {
-                type = "play-sound",
-                sound = sounds.eat_fish,
-              },
+                category = "capsule",
+                target_type = "position",
+                action =
+                {
+                    type = "direct",
+                    action_delivery =
+                    {
+                        type = "instant",
+                        target_effects =
+                        {
+                            {
+                                type = "damage",
+                                damage = { type = "physical", amount = -120 }
+                            },
+                            {
+                                type = "play-sound",
+                                sound = sounds.eat_fish,
+                            },
+                        }
+                    }
+                }
             }
-          }
         }
-      }
-    }
-  },
-  stack_size = 100
+    },
+    stack_size = 100
 }
 
-local cookedFishRecipe = {
-  type = "recipe",
-  name = "cooked-fish-recipe",
-  category = "cooking",
-  energy_required = 16,
-  enabled = true,
-  ingredients = { { "raw-fish", 1 } },
-  result = "cooked-fish"
+local cooked_fish_recipe = {
+    type = "recipe",
+    name = "cooked-fish-recipe",
+    category = "cooking",
+    energy_required = 16,
+    enabled = true,
+    ingredients = { { "raw-fish", 1 } },
+    result = "cooked-fish"
 }
 
-local cookingCategory = {
-  type = "recipe-category",
-  name = "cooking",
+local cooking_category = {
+    type = "recipe-category",
+    name = "cooking",
 }
 
 data:extend({
-  cookedFish,
-  cookedFishRecipe,
-  cookingCategory
+    cooked_fish_item,
+    cooked_fish_recipe,
+    cooking_category
 })
