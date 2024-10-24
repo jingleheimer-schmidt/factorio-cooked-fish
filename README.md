@@ -14,9 +14,9 @@ Support for modded fish available on request. Please make a post on the discussi
 # Translation
 Help translate Cooked Fish to more languages: https://crowdin.com/project/factorio-mods-localization
 Currently available locale:
-🇺🇸 English (en), 🏴 Catalan (ca), 🇩🇪 German (de), 🇫🇷 French (fr), 🇷🇺 Russian (ru), 🇺🇦 Ukrainian (uk)
+🇺🇸 English (en), 🇪🇸 Catalan (ca), 🇩🇪 German (de), 🇫🇷 French (fr), 🇷🇺 Russian (ru), 🇺🇦 Ukrainian (uk)
 
 ----------------------
 # License
-Cooked Fish © 2023 by asher_sky is licensed under Attribution-NonCommercial-ShareAlike 4.0 International. 
+Cooked Fish © 2024 by asher_sky is licensed under Attribution-NonCommercial-ShareAlike 4.0 International. 
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/

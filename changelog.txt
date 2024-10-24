@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 24OCT2024
+  Changes:
+    - added support for Factorio 2.0
+    - organized mod files
+    - removed "-recipe" from recipe names
+---------------------------------------------------------------------------------------------------
 Version: 0.0.9
 Date: 24OCT2024
   Changes:

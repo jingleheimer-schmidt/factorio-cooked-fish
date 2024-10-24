@@ -1,7 +1,7 @@
 
 {
 	"name": "factorio-cooked-fish",
-	"version": "0.0.9",
+	"version": "1.0.0",
 	"title": "Cooked Fish",
 	"description": "Allows raw fish to be cooked in a furnace",
 	"author": "asher_sky",
@@ -10,5 +10,5 @@
 		"(?)more-fish",
 		"(?)Advanced_Fishing"
 	],
-	"factorio_version": "1.1"
+	"factorio_version": "2.0"
 }
