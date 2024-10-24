@@ -1,6 +1,7 @@
 
 local sounds = require("__base__.prototypes.entity.sounds")
 
+---@type data.ItemPrototype
 local cooked_af_crab = {
     name = "cooked-af-crab",
     type = "capsule",
@@ -47,6 +48,7 @@ local cooked_af_crab = {
     stack_size = 100
 }
 
+---@type data.ItemPrototype
 local cooked_af_salmon = {
     name = "cooked-af-salmon",
     type = "capsule",
@@ -93,6 +95,7 @@ local cooked_af_salmon = {
     stack_size = 100
 }
 
+---@type data.ItemPrototype
 local cooked_af_tropical = {
     name = "cooked-af-tropical",
     type = "capsule",
@@ -139,6 +142,7 @@ local cooked_af_tropical = {
     stack_size = 100
 }
 
+---@type data.ItemPrototype
 local cooked_af_squid = {
     name = "cooked-af-squid",
     type = "capsule",
@@ -185,6 +189,7 @@ local cooked_af_squid = {
     stack_size = 100
 }
 
+---@type data.RecipePrototype
 local cooked_af_crab_recipe = {
     type = "recipe",
     name = "cooked-af-crab-recipe",
@@ -195,6 +200,7 @@ local cooked_af_crab_recipe = {
     result = "cooked-af-crab"
 }
 
+---@type data.RecipePrototype
 local cooked_af_salmon_recipe = {
     type = "recipe",
     name = "cooked-af-salmon-recipe",
@@ -205,6 +211,7 @@ local cooked_af_salmon_recipe = {
     result = "cooked-af-salmon"
 }
 
+---@type data.RecipePrototype
 local cooked_af_tropical_recipe = {
     type = "recipe",
     name = "cooked-af-tropical-recipe",
@@ -215,6 +222,7 @@ local cooked_af_tropical_recipe = {
     result = "cooked-af-tropical"
 }
 
+---@type data.RecipePrototype
 local cooked_af_squid_recipe = {
     type = "recipe",
     name = "cooked-af-squid-recipe",

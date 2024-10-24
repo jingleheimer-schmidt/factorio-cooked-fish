@@ -1,6 +1,7 @@
 
 local sounds = require("__base__.prototypes.entity.sounds")
 
+---@type data.ItemPrototype
 local cooked_cod_item = {
     name = "cooked-cod",
     type = "capsule",
@@ -47,6 +48,7 @@ local cooked_cod_item = {
     stack_size = 100
 }
 
+---@type data.ItemPrototype
 local cooked_salmon_item = {
     name = "cooked-salmon",
     type = "capsule",
@@ -93,6 +95,7 @@ local cooked_salmon_item = {
     stack_size = 100
 }
 
+---@type data.RecipePrototype
 local cooked_cod_recipe = {
     type = "recipe",
     name = "cooked-cod-recipe",
@@ -103,6 +106,7 @@ local cooked_cod_recipe = {
     result = "cooked-cod"
 }
 
+---@type data.RecipePrototype
 local cooked_salmon_recipe = {
     type = "recipe",
     name = "cooked-salmon-recipe",
