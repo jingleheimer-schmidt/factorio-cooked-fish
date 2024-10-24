@@ -192,7 +192,7 @@ local cooked_af_squid = {
 ---@type data.RecipePrototype
 local cooked_af_crab_recipe = {
     type = "recipe",
-    name = "cooked-af-crab-recipe",
+    name = "cooked-af-crab",
     category = "cooking",
     energy_required = 16,
     enabled = true,
@@ -203,7 +203,7 @@ local cooked_af_crab_recipe = {
 ---@type data.RecipePrototype
 local cooked_af_salmon_recipe = {
     type = "recipe",
-    name = "cooked-af-salmon-recipe",
+    name = "cooked-af-salmon",
     category = "cooking",
     energy_required = 16,
     enabled = true,
@@ -214,7 +214,7 @@ local cooked_af_salmon_recipe = {
 ---@type data.RecipePrototype
 local cooked_af_tropical_recipe = {
     type = "recipe",
-    name = "cooked-af-tropical-recipe",
+    name = "cooked-af-tropical",
     category = "cooking",
     energy_required = 16,
     enabled = true,
@@ -225,7 +225,7 @@ local cooked_af_tropical_recipe = {
 ---@type data.RecipePrototype
 local cooked_af_squid_recipe = {
     type = "recipe",
-    name = "cooked-af-squid-recipe",
+    name = "cooked-af-squid",
     category = "cooking",
     energy_required = 16,
     enabled = true,

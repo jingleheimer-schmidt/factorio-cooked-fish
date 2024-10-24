@@ -98,7 +98,7 @@ local cooked_salmon_item = {
 ---@type data.RecipePrototype
 local cooked_cod_recipe = {
     type = "recipe",
-    name = "cooked-cod-recipe",
+    name = "cooked-cod",
     category = "cooking",
     energy_required = 16,
     enabled = true,
@@ -109,7 +109,7 @@ local cooked_cod_recipe = {
 ---@type data.RecipePrototype
 local cooked_salmon_recipe = {
     type = "recipe",
-    name = "cooked-salmon-recipe",
+    name = "cooked-salmon",
     category = "cooking",
     energy_required = 16,
     enabled = true,

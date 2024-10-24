@@ -51,7 +51,7 @@ local cooked_fish_item = {
 ---@type data.RecipePrototype
 local cooked_fish_recipe = {
     type = "recipe",
-    name = "cooked-fish-recipe",
+    name = "cooked-fish",
     category = "cooking",
     energy_required = 16,
     enabled = true,
