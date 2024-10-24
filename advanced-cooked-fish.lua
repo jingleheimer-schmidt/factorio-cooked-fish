@@ -236,11 +236,10 @@ if mods["Advanced_Fishing"] then
         cooked_af_squid,
         cooked_af_squid_recipe
     })
-    local farm_tech = data.raw.technology["af_fish_farm"].effects
-    table.insert(farm_tech, { type = "unlock-recipe", recipe = "cooked-af-crab-recipe" })
-    table.insert(farm_tech, { type = "unlock-recipe", recipe = "cooked-af-salmon-recipe" })
-    table.insert(farm_tech, { type = "unlock-recipe", recipe = "cooked-af-tropical-recipe" })
-    table.insert(farm_tech, { type = "unlock-recipe", recipe = "cooked-af-squid-recipe" })
+    table.insert(data.raw.technology["af_fish_farm"].effects, { type = "unlock-recipe", recipe = "cooked-af-crab-recipe" })
+    table.insert(data.raw.technology["af_fish_farm"].effects, { type = "unlock-recipe", recipe = "cooked-af-salmon-recipe" })
+    table.insert(data.raw.technology["af_fish_farm"].effects, { type = "unlock-recipe", recipe = "cooked-af-tropical-recipe" })
+    table.insert(data.raw.technology["af_fish_farm"].effects, { type = "unlock-recipe", recipe = "cooked-af-squid-recipe" })
     data.raw.capsule["af-crab"].capsule_action.attack_parameters.activation_type = "consume"
     data.raw.capsule["af-salmon"].capsule_action.attack_parameters.activation_type = "consume"
     data.raw.capsule["af-tropical"].capsule_action.attack_parameters.activation_type = "consume"
