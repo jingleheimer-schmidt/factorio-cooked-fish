@@ -18,5 +18,5 @@ Currently available locale:
 
 ----------------------
 # License
-Cooked Fish © 2023 by asher_sky is licensed under Attribution-NonCommercial-ShareAlike 4.0 International. 
+Cooked Fish © 2024 by asher_sky is licensed under Attribution-NonCommercial-ShareAlike 4.0 International. 
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
