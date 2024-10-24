@@ -14,7 +14,7 @@ Support for modded fish available on request. Please make a post on the discussi
 # Translation
 Help translate Cooked Fish to more languages: https://crowdin.com/project/factorio-mods-localization
 Currently available locale:
-🇺🇸 English (en), 🏴 Catalan (ca), 🇩🇪 German (de), 🇫🇷 French (fr), 🇷🇺 Russian (ru), 🇺🇦 Ukrainian (uk)
+🇺🇸 English (en), 🇪🇸 Catalan (ca), 🇩🇪 German (de), 🇫🇷 French (fr), 🇷🇺 Russian (ru), 🇺🇦 Ukrainian (uk)
 
 ----------------------
 # License
