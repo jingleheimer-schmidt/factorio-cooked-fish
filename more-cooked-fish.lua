@@ -102,8 +102,8 @@ local cooked_cod_recipe = {
     category = "cooking",
     energy_required = 16,
     enabled = true,
-    ingredients = { { "raw-cod", 1 } },
-    result = "cooked-cod"
+    ingredients = { { type = "item", name = "raw-cod", amount = 1 } },
+    results = { { type = "item", name = "cooked-cod", amount = 1 } }
 }
 
 ---@type data.RecipePrototype
@@ -113,8 +113,8 @@ local cooked_salmon_recipe = {
     category = "cooking",
     energy_required = 16,
     enabled = true,
-    ingredients = { { "raw-salmon", 1 } },
-    result = "cooked-salmon"
+    ingredients = { { type = "item", name = "raw-salmon", amount = 1 } },
+    results = { { type = "item", name = "cooked-salmon", amount = 1 } }
 }
 
 if mods["more-fish"] then

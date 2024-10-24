@@ -55,8 +55,8 @@ local cooked_fish_recipe = {
     category = "cooking",
     energy_required = 16,
     enabled = true,
-    ingredients = { { "raw-fish", 1 } },
-    result = "cooked-fish"
+    ingredients = { { type = "item", name = "raw-fish", amount = 1 } },
+    results = { { type = "item", name = "cooked-fish", amount = 1 } }
 }
 
 ---@type data.RecipeCategory

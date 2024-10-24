@@ -196,8 +196,8 @@ local cooked_af_crab_recipe = {
     category = "cooking",
     energy_required = 16,
     enabled = true,
-    ingredients = { { "af-crab", 1 } },
-    result = "cooked-af-crab"
+    ingredients = { { type = "item", name = "af-crab", amount = 1 } },
+    results = { { type = "item", name = "cooked-af-crab", amount = 1 } }
 }
 
 ---@type data.RecipePrototype
@@ -207,8 +207,8 @@ local cooked_af_salmon_recipe = {
     category = "cooking",
     energy_required = 16,
     enabled = true,
-    ingredients = { { "af-salmon", 1 } },
-    result = "cooked-af-salmon"
+    ingredients = { { type = "item", name = "af-salmon", amount = 1 } },
+    results = { { type = "item", name = "cooked-af-salmon", amount = 1 } }
 }
 
 ---@type data.RecipePrototype
@@ -218,8 +218,8 @@ local cooked_af_tropical_recipe = {
     category = "cooking",
     energy_required = 16,
     enabled = true,
-    ingredients = { { "af-tropical", 1 } },
-    result = "cooked-af-tropical"
+    ingredients = { { type = "item", name = "af-tropical", amount = 1 } },
+    results = { { type = "item", name = "cooked-af-tropical", amount = 1 } }
 }
 
 ---@type data.RecipePrototype
@@ -229,8 +229,8 @@ local cooked_af_squid_recipe = {
     category = "cooking",
     energy_required = 16,
     enabled = true,
-    ingredients = { { "af-squid", 1 } },
-    result = "cooked-af-squid"
+    ingredients = { { type = "item", name = "af-squid", amount = 1 } },
+    results = { { type = "item", name = "cooked-af-squid", amount = 1 } }
 }
 
 if mods["Advanced_Fishing"] then
