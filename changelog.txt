@@ -1,8 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.9
-Date: ????
+Date: 24OCT2024
   Changes:
-    - update license year
+    - updated license year
   Locale:
     - added locale strings for mod name and description
     - added Catalan (ca) locale from Crowdin
@@ -13,7 +13,7 @@ Date: ????
 Version: 0.0.8
 Date: 18SEP2023
   Changes:
-    - added "ru" locale
+    - added Russian (ru) locale from Crowdin
     - updated license year
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.7
