@@ -45,7 +45,9 @@ local cooked_cod_item = {
             }
         }
     },
-    stack_size = 100
+    stack_size = 100,
+    spoil_result = feature_flags["spoiling"] and "spoilage" or nil,
+    spoil_ticks = feature_flags["spoiling"] and 453000 * 2 or nil
 }
 
 ---@type data.ItemPrototype
@@ -92,7 +94,9 @@ local cooked_salmon_item = {
             }
         }
     },
-    stack_size = 100
+    stack_size = 100,
+    spoil_result = feature_flags["spoiling"] and "spoilage" or nil,
+    spoil_ticks = feature_flags["spoiling"] and 453000 * 2 or nil
 }
 
 ---@type data.RecipePrototype

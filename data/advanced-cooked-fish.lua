@@ -45,7 +45,9 @@ local cooked_af_crab = {
             }
         }
     },
-    stack_size = 100
+    stack_size = 100,
+    spoil_result = feature_flags["spoiling"] and "spoilage" or nil,
+    spoil_ticks = feature_flags["spoiling"] and 453000 * 2 or nil
 }
 
 ---@type data.ItemPrototype
@@ -92,7 +94,9 @@ local cooked_af_salmon = {
             }
         }
     },
-    stack_size = 100
+    stack_size = 100,
+    spoil_result = feature_flags["spoiling"] and "spoilage" or nil,
+    spoil_ticks = feature_flags["spoiling"] and 453000 * 2 or nil
 }
 
 ---@type data.ItemPrototype
@@ -139,7 +143,9 @@ local cooked_af_tropical = {
             }
         }
     },
-    stack_size = 100
+    stack_size = 100,
+    spoil_result = feature_flags["spoiling"] and "spoilage" or nil,
+    spoil_ticks = feature_flags["spoiling"] and 453000 * 2 or nil
 }
 
 ---@type data.ItemPrototype
@@ -186,7 +192,9 @@ local cooked_af_squid = {
             }
         }
     },
-    stack_size = 100
+    stack_size = 100,
+    spoil_result = feature_flags["spoiling"] and "spoilage" or nil,
+    spoil_ticks = feature_flags["spoiling"] and 453000 * 2 or nil
 }
 
 ---@type data.RecipePrototype
